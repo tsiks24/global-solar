@@ -3,7 +3,7 @@ import Image from 'next/image'
    import React from 'react'
 
    import { Card, CardContent, CardHeader ,CardFooter} from '@/components/ui/card'
-   import IProduct from '@/lib/db/models/product.models'
+   import type {IProduct} from '@/lib/db/models/product.models'
 
    import Rating from './Rating'
    import { formatNumber, generateId } from '@/lib/utils'
@@ -52,7 +52,7 @@ import AddToCart from './add-to-cart'
      )
      const ProductDetails = () => (
        <div className='flex-1 space-y-2'>
-         <p className='font-bold'>{product.brand}</p>
+        
          <Link
            href={`/product/${product.slug}`}
            className='overflow-hidden text-ellipsis'

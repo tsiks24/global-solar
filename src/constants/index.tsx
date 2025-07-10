@@ -93,28 +93,28 @@
 
   export const Proj = [
     {
-      id:"1",
-      source:"/a.png",
-      name:"Solar Panel Installation",
-      desc:"Proffesional installation services to ensure your solar panels operate"
+      id:'1',
+      source:'/a.png',
+      name:'Solar Panel Installation',
+      desc:'Proffesional installation services to ensure your solar panels operate'
     },
     {
-      id:"2",
-      source:"/a.png",
-      name:"Solar Panel Installation",
-      desc:"Proffesional installation services to ensure your solar panels operate"
+      id:'2',
+      source:'/a.png',
+      name:'Solar Panel Installation',
+      desc:'Proffesional installation services to ensure your solar panels operate'
     },
     {
-      id:"3",
-      source:"/b.png",
-      name:"Solar Panel Installation",
-      desc:"Proffesional installation services to ensure your solar panels operate"
+      id:'3',
+      source:'/b.png',
+      name:'Solar Panel Installation',
+      desc:'Proffesional installation services to ensure your solar panels operate'
     },
     {
-      id:"4",
-      source:"/c.png",
-      name:"Solar Panel Installation",
-      desc:"Proffesional installation services to ensure your solar panels operate"
+      id:'4',
+      source:'/c.png',
+      name:'Solar Panel Installation',
+      desc:'Proffesional installation services to ensure your solar panels operate'
     },
     
   ]
