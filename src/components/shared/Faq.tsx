@@ -1,10 +1,10 @@
 /** @format */
 "use client";
 import React from "react";
-import Image from "next/image";
-import minusIcon from "@/assets/images/icon-minus.png";
+
+
 import { useState } from "react";
-import plusIcon from "@/assets/images/icon-plus.png";
+
 
 import { useAutoAnimate } from "@formkit/auto-animate/react";
 type Props = {
@@ -29,11 +29,7 @@ export default function Accordion(props: Props) {
         className=" flex justify-between gap-[5px] bg-white p-[10px]  sm:text-lg font-semibold cursor-pointer "
       >
         <span>{props.question}</span>
-        {isAccordionOpen ? (
-          <Image src={minusIcon} alt="minus-icon" className=" h-6 w-auto" />
-        ) : (
-          <Image src={plusIcon} alt="plus-icon" className=" h-6 w-auto" />
-        )}
+       
       </p>
       {/* ans */}
       {isAccordionOpen && (
