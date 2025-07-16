@@ -278,6 +278,7 @@ const products: IProductInput[] = [
         isPublished: true,
         price: 120.00 ,
         listPrice: 150.00 ,
+        brand:'Growatt',
         avgRating: 4.2,
         numReviews: 10,
         ratingDistribution: [
@@ -310,6 +311,7 @@ const products: IProductInput[] = [
         isPublished: true,
         price: 280 ,
         listPrice: 320 ,
+        brand:'Growatt',
         avgRating: 4.6,
         numReviews: 10,
         ratingDistribution: [
@@ -339,6 +341,7 @@ const products: IProductInput[] = [
         isPublished: true,
         price: 300 ,
         listPrice: 350 ,
+        brand:'Growatt',
         avgRating: 4.8,
         numReviews: 14,
         ratingDistribution: [
@@ -372,6 +375,7 @@ const products: IProductInput[] = [
         isPublished: true,
         price: 10 ,
         listPrice: 15 ,
+        brand:'Growatt',
         avgRating: 4.7,
         numReviews: 20,
         ratingDistribution: [
@@ -403,6 +407,7 @@ const products: IProductInput[] = [
         isPublished: true,
         price: 75 ,
         listPrice: 90 ,
+        brand:'Growatt',
         avgRating: 4.4,
         numReviews: 18,
         ratingDistribution: [
@@ -433,6 +438,7 @@ const products: IProductInput[] = [
         isPublished: true,
         price: 1200 ,
         listPrice: 1500 ,
+        brand:'Growatt',
         avgRating: 4.4,
         numReviews: 18,
         ratingDistribution: [
@@ -463,6 +469,7 @@ const products: IProductInput[] = [
         isPublished: true,
         price: 1800 ,
         listPrice: 2200 ,
+        brand:'Growatt',
         avgRating: 4.8,
         numReviews: 10,
         ratingDistribution: [
@@ -493,6 +500,7 @@ const products: IProductInput[] = [
         isPublished: true,
         price: 150 ,
         listPrice: 180 ,
+        brand:'Growatt',
         avgRating: 4.6,
         numReviews: 22,
         ratingDistribution: [
@@ -525,6 +533,7 @@ const products: IProductInput[] = [
         isPublished: true,
         price: 50 ,
         listPrice: 60 ,
+        brand:'Growatt',
         avgRating: 4.5,
         numReviews: 15,
         ratingDistribution: [

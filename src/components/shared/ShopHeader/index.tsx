@@ -22,8 +22,8 @@
                  className='flex items-center m-1 cursor-pointer '
                >
                  <Image
-                   src='/so.png'
-                   className='w-[150px] h-[30px]'  width={2000} height={100}
+                   src='/soa.png'
+                   className='w-[100px] h-[100px]'  width={1000} height={1000}
                    alt={`${APP_NAME} logo`}
                  />
                 

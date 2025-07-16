@@ -1,5 +1,9 @@
 import React from 'react'
 import PagesHero from '@/components/shared/PagesHero'
+import MainSec from '@/components/about/MainSec'
+import Values from '@/components/about/Values'
+import ClientSec from '@/components/about/ClientSec'
+import CallToAction from '@/components/about/CallToAction'
 
 
 
@@ -12,7 +16,11 @@ function page() {
                 <PagesHero name='About'/>
         </div>
       </div>
-    
+         <MainSec/>
+         <Values/>
+         <CallToAction/>
+         <ClientSec/>
+         
     </div>
     
   )

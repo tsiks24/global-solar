@@ -15,7 +15,7 @@ function Foot() {
     <div className="h-full w-full flex flex-col items-center flex-wrap justify-center">
       <div className="grid grid-cols-1 md:grid-cols-4 w-[90%] lg:w-[80%] gap-6 pb-8">
         <div className="col-span-1 text-center md:text-start md:justify-start md:items-start flex flex-col justify-center items-center ">
-           <Image className='w-[150px] h-[30px]  mt-[23px]' src={'/so.png'} width={2000} height={100} alt='logo'></Image>
+           <Image className='w-[130px] h-[80px]  mt-[23px]' src={'/soa.png'} width={1000} height={1000} alt='logo'></Image>
           <p className="text-white pb-2 pt-4">
           A global network that provides knowledge,tools and resources for decision makers and practitioners to scale up sustainable living in their communities
           </p>

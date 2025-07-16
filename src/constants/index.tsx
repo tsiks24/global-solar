@@ -13,6 +13,10 @@
          href: '/services',
        },
        {
+         name:"Resource Hub",
+         href: '/',
+       },
+       {
          name:"Shop",
          href: '/shop',
        }
@@ -139,5 +143,49 @@
     {
       name:"Awards Achievement",
       count:200
+    },
+  ]
+
+   export const clientsData = [
+    {
+      src:"/1.png",
+     
+    },
+
+    {
+      src:"/2.png",
+      
+    },
+
+    {
+      src:"/3.png",
+      
+    },
+
+    
+      {
+      src:"/5.png",
+      
+    },
+     {
+      src:"/6.png",
+      
+    },
+    {
+      src:"/7.png",
+      
+    },
+    {
+      src:"/8.jpg",
+      
+    },
+    {
+      src:"/9.jpeg",
+      
+    },
+   
+    {
+      src:"/11.jpg",
+      
     },
   ]

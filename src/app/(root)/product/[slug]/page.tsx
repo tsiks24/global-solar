@@ -53,10 +53,13 @@ import { Card, CardContent } from '@/components/ui/card'
              <div className='col-span-2'>
                <ProductGallery images={product.images} />
              </div>
+             
 
-             <div className='flex w-full flex-col gap-2 md:p-5 col-span-2'>
-               <div className='flex flex-col gap-3'>
-                 
+          <div className='flex w-full flex-col gap-2 md:p-5 col-span-2'>
+              <div className='flex flex-col gap-3'>
+                  <p className='p-medium-16 rounded-full bg-grey-500/10   text-grey-500'>
+                   Brand {product.brand} {product.category}
+                 </p>
                  <h1 className='font-bold text-lg lg:text-xl'>
                    {product.name}
                  </h1>
