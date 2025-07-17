@@ -20,7 +20,7 @@ function MainServ() {
                                ))}
                     </div>
                 </div>
-                <div className='flex flex-col fmd:lex-row w-full gap-5'>
+                <div className='flex flex-col md:flex-row w-full gap-5'>
                        {Proj.map((a, b) => (
                                  <div key={b} className='p-8 text-green-900 bg-[#6bd408] flex-1 rounded-sm cursor-pointer'>
                                     <div className='p-2'><Sun className='h-10 w-10'/></div>
