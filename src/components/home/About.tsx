@@ -10,7 +10,7 @@ function About() {
     <div className='relative flex flex-col w-full justify-center items-center pt-[20px] md:pt-[100px]'>
          <div className='flex md:flex-row flex-col lg:w-[80%] w-[95%]  gap-10'>
                  <div className='flex-1 flex justify-center items-center'>
-                      <Image alt={`${APP_NAME} about section`} className='h-auto w-full' src="/about.jpg" height={2000} width={4000}></Image>
+                      <Image alt={`${APP_NAME} about section`} className='h-auto w-full' src="/images/short1.webp" height={2000} width={4000}></Image>
                  </div>
                  <div className='flex-1'>
                      <div className='flex flex-col w-full '>

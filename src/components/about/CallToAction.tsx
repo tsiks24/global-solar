@@ -3,7 +3,7 @@ import Btn from '../shared/Btn'
 
 function CallToAction() {
   return (
-    <div className='flex relative flex-col w-full justify-center items-center bg-fixed bg-center bg-no-repeat md:my-[50px] py-[50px]' style={{backgroundImage:'url(/cta2.png)'}}>
+    <div className='flex relative flex-col w-full justify-center items-center bg-fixed bg-center bg-no-repeat md:my-[50px] py-[50px]' style={{backgroundImage:'url(/images/cta2.webp)'}}>
         <div className='w-full h-full absolute  top-0 opacity-70 bg-gray-950 z-10'></div>
         <div className=' flex flex-col md:flex-row w-[95%] lg:w-[80%] z-12 '>
             <div className='flex-1 '>

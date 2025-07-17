@@ -11,7 +11,7 @@ function Values() {
                                         energy and energy efficiency technologies to all
                                           citizens of Africa</h1></div>
              <div className='flex flex-col md:flex-row pt-10 w-full gap-5 md:gap-20'>
-                <div className='flex-1 relative bg-cover bg-no-repeat rounded-xl' style={{backgroundImage:'url(/short2.png)'}}>
+                <div className='flex-1 relative bg-cover bg-no-repeat rounded-xl' style={{backgroundImage:'url(/images/short2.webp)'}}>
                   
                    <div className='md:absolute bottom-5 left-5 right-[-6px] rounded-xl border-white border-[10px]  text-[#6bd408] bg-black p-10'> <h1 className='text-[20px]'>Innovation in product and service quality</h1></div>
                 </div>

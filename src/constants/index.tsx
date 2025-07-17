@@ -14,7 +14,7 @@
        },
        {
          name:"Resource Hub",
-         href: '/',
+         href: '/resourse',
        },
        {
          name:"Shop",
@@ -36,7 +36,7 @@
   export const usefulLinks = [
     {
       name:"Shop",
-      href: "/",
+      href: "/shop",
     },
     
     {
@@ -164,63 +164,63 @@
 
    export const clientsData = [
     {
-      src:"/1.png",
+      src:"/images/1.webp",
      
     },
 
     {
-      src:"/2.png",
+    src:"/images/2.webp",
       
     },
 
     {
-      src:"/3.png",
+     src:"/images/3.webp",
       
     },
     {
-      src:"/4.png",
+     src:"/images/4.webp",
       
     },
      {
-      src:"/5.png",
+      src:"/images/5.webp",
       
     },
     {
-      src:"/6.png",
+     src:"/images/6.webp",
       
     },
     {
-      src:"/7.png",
+     src:"/images/7.webp",
       
     },
     {
-      src:"/8.png",
+     src:"/images/8.webp",
       
     },
    
     {
-      src:"/9.png",
+     src:"/images/9.webp",
       
     },
     {
-      src:"/10.png",
+     src:"/images/10.webp",
       
     },
   ]
 
   export const News = [
     { 
-      src:'/short1.png',
+      src:'/images/short1.webp',
       name:"How Solar Cuts Business Energy Costs",
       exerpt:"Solar energy significantly reduces business energy costs by lowering electricity bills, enhancing sustainability, and providing long-term financial savings through tax incentives."
     },
      { 
-      src:'/short1.png',
+      src:'/images/short1.webp',
       name:"Why Green Energy Matters More Today",
       exerpt:"Green energy is crucial today for combating climate change, promoting sustainable development, reducing pollution, and ensuring energy security for future generations."
     },
      { 
-      src:'/short1.png',
+      src:'/images/short1.webp',
       name:"Top Ways to Maximize Solar Efficiency",
       exerpt:"Maximizing solar efficiency involves optimizing panel placement, using high-quality inverters, maintaining cleanliness, investing in energy storage, and monitoring performance regularly."
     },

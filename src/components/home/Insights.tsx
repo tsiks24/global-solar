@@ -16,7 +16,7 @@ function Insights() {
                    </div>
                    <div className='p-2'><h1 className='text-[20px] text-[#6bd408] font-bold'>{s.name}</h1></div>
                    <div className='p-2'><h1 className='text-white'>{s.exerpt}</h1></div>
-                   <Btn href='/' text='Read More'/>
+                   <Btn href='/resource' text='Read More'/>
                </div>        
                 ))}
         </div>

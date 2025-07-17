@@ -20,7 +20,7 @@ With FLAMES, we have managed to improve the lives of several families living in
 rural areas with the donation of small solar home systems and biomass cook stoves.</h1></div>
                <div className='w-full flex  flex-col md:flex-row gap-20'>
                       <div className='flex-2'>
-                            <Image src='/short1.png' alt='about' width={2000} height={1000} className='rounded-xl w-full h-full'/>
+                            <Image src='/images/short1.webp' alt='about' width={2000} height={1000} className='rounded-xl w-full h-full'/>
                       </div>
                       <div className='flex-1 flex flex-col gap-5'>
                               <div className='flex-1 bg-black text-white p-5 rounded-xl'>
