@@ -37,7 +37,7 @@ export default function CartPage() {
             <CardContent className='flex gap-5 justify-center items-center'>
               Continue shopping on 
               <Link href={'/shop'}>
-                <Image className='w-[150px] h-[30px]' src={'/so.png'} width={2000} height={100} alt={`${APP_NAME} logo`} />
+                <Image className='w-[130px] h-[80px]' src={'/soa.png'} width={2000} height={100} alt={`${APP_NAME} logo`} />
               </Link>
             </CardContent>
           </Card>
