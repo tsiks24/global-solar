@@ -14,7 +14,7 @@
        },
        {
          name:"Resource Hub",
-         href: '/resourse',
+         href: '/resource',
        },
        {
          name:"Shop",
