@@ -21,24 +21,24 @@ function About() {
                           <div className='flex items-center gap-2 py-[4px]'> 
                               <div className='p-[4px] bg-[#6bd408] rounded-full hover:bg-green-950 hover:text-[#6bd408]'><IoIosCheckmark className='h-[20px] w-[20px]'/></div>
                               
-                              <div><h1 className='md:text-[18px] text-[16px] '>Bringing Effective Green Energy Solutions</h1></div>
+                              <div><h1 className='md:text-[18px] text-[16px] '>Global Solar Pvt Ltd (2014 Zimbabwe)</h1></div>
                             </div>
 
                           <div className='flex items-center py-4 gap-2'> 
                               <div className='p-[4px] bg-[#6bd408] rounded-full hover:bg-green-950 hover:text-[#6bd408]'><IoIosCheckmark className='h-[20px] w-[20px]'/></div>
                               
-                              <div><h1 className='md:text-[18px] text-[16px]'>Bringing Effective Green Energy Solutions</h1></div>
+                              <div><h1 className='md:text-[18px] text-[16px]'>Global Solar Zambia (2016 Zambia)</h1></div>
                             </div>
 
                            <div className='flex items-center gap-2 py-4'> 
                               <div className='p-[4px] bg-[#6bd408] rounded-full hover:bg-green-950 hover:text-[#6bd408]'><IoIosCheckmark className='h-[20px] w-[20px]'/></div>
                               
-                              <div><h1 className='text-[18px]text-[16px] '>Bringing Effective Green Energy Solutions</h1></div>
+                              <div><h1 className='text-[18px]text-[16px] '>Solar Worldwide (2017 Malawi)</h1></div>
                             </div>
 
                               
                             </div>
-                            <div><Btn href="/" text='Our Services' /></div>
+                            <div><Btn href="/about" text='About Us' /></div>
                             
                            
                      </div>

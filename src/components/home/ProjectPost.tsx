@@ -46,12 +46,14 @@ function ProjectPost() {
 
 
   return (
-  <div className='w-full relative flex flex-col justify-center items-center pt-[20px] md:py-[100px] '>
+  <div className='w-full relative flex flex-col justify-center items-center pt-[20px] md:pt-[100px] '>
         <div className='flex flex-col lg:w-[80%] w-[95%] '>
            <div className='w-full justify-between flex flex-row'>
                <div>
                 <h1 className='text-[20px] md:text-[40px] font-semibold pb-[10px]'>Solar Expertise You Can Trust</h1>
-                  <p className='text-[16px] pb-[10px]'>We take pride in our unwavering commitment to excellence in the field of solar energy. Our reputable team is comprised of highly skilled professionals dedicated to providing you with the best solar solutions.</p>
+                  <p className='text-[16px] pb-[10px]'>Our dedication to solar energy excellence sets us apart. With a team of experienced professionals, we deliver innovative solar solutions tailored to your specific needs, ensuring reliability and efficiency in every project.
+
+</p>
                </div>
                <div>
                    

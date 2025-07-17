@@ -268,8 +268,8 @@
 const products: IProductInput[] = [
         {
           //Solar Panels
-        name: 'Mono 130 Watt Solar Panel ',
-        slug: toSlug('Mono 130 Watt Solar Panel '),
+        name: 'Mono 130 Watt Solar Panel',
+        slug: toSlug('Mono 130 Watt Solar Panel'),
         category: 'Solar Panels',
         images: [
           '/images/product1.webp',
@@ -297,11 +297,41 @@ const products: IProductInput[] = [
 
         reviews: [],
       },
+      {
+        name: 'Solar Panel 550',
+        slug: toSlug('Solar Panel 550'),
+        category: 'Solar Panels',
+        images: [
+          '/images/mono.jpeg',
+        ],
+        tags: ['featured', 'new-arrival'],
+        isPublished: true,
+        price: 100.00 ,
+        listPrice: 150.00 ,
+        brand:'Jinko',
+        avgRating: 5,
+        numReviews: 5,
+        ratingDistribution: [
+          { rating: 1, count: 0 },
+          { rating: 2, count: 0 },
+          { rating: 3, count: 0 },
+          { rating: 4, count: 0 },
+          { rating: 5, count: 5 },
+        ],
+        numSales: 0,
+        countInStock: 200,
+        description:
+          'A high-efficiency monocrystalline solar panel designed for residential and commercial use. It features a durable design and excellent performance in low-light conditions, making it perfect for various installations. ',
+
+       
+
+        reviews: [],
+      },
         //Inverters
 
       {
-        name: 'Grid Tie Power Inverter  ',
-        slug: toSlug('Grid Tie Power Inverter  '),
+        name: 'Grid Tie Power Inverter',
+        slug: toSlug('Grid Tie Power Inverter'),
         category: 'Inverters',
         images: [
            '/images/product2.webp',
@@ -328,13 +358,68 @@ const products: IProductInput[] = [
 
         reviews: [],
       },
-
-       {
-        name: 'Solar Inverters Electric Power     ',
-        slug: toSlug('Solar Inverters Electric Power  '),
+      {
+        name: 'Inverter 3Kw',
+        slug: toSlug('Inverter 3Kw'),
         category: 'Inverters',
         images: [
-         
+           '/images/inv1.webp',
+        ],
+          tags: ['new-arrival' , 'featured'],
+        isPublished: true,
+        price: 280 ,
+        listPrice: 320 ,
+        brand:'Growatt',
+        avgRating: 5,
+        numReviews: 5,
+        ratingDistribution: [
+          { rating: 1, count: 0 },
+          { rating: 2, count: 0 },
+          { rating: 3, count: 0 },
+          { rating: 4, count: 0 },
+          { rating: 5, count: 5 },
+        ],
+        numSales: 0 ,
+        countInStock: 200,
+        description:
+          'Designed to connect your solar power system to the electrical grid, this inverter allows you to use solar energy while feeding excess power back to the grid. It features advanced technology for optimal energy conversion.  ',
+
+        reviews: [],
+      },
+
+      {
+        name: 'Inverter 5/6KW',
+        slug: toSlug('Inverter 5/6KW'),
+        category: 'Inverters',
+        images: [
+           '/images/inv5.webp',
+        ],
+          tags: ['new-arrival' , 'featured'],
+        isPublished: true,
+        price: 550 ,
+        listPrice: 980 ,
+        brand:'Growatt',
+        avgRating: 5,
+        numReviews: 5,
+        ratingDistribution: [
+          { rating: 1, count: 0 },
+          { rating: 2, count: 0 },
+          { rating: 3, count: 0 },
+          { rating: 4, count: 0 },
+          { rating: 5, count: 5 },
+        ],
+        numSales: 0 ,
+        countInStock: 200,
+        description:
+          'Designed to connect your solar power system to the electrical grid, this inverter allows you to use solar energy while feeding excess power back to the grid. It features advanced technology for optimal energy conversion.  ',
+
+        reviews: [],
+      },
+       {
+        name: 'Solar Inverters Electric Power',
+        slug: toSlug('Solar Inverters Electric Power'),
+        category: 'Inverters',
+        images: [
           '/images/product5.webp',
         ],
              tags: ['most-arrival' , 'featured'],
@@ -360,41 +445,7 @@ const products: IProductInput[] = [
 
         reviews: [],
       },
-       //Connectors
       
-      {
-        name: 'Solar MC4 Connector',
-        slug: toSlug('Solar MC4 Connector'),
-        category: 'Connectors',
-        images: [
-          '/images/product4.webp',
-          '/images/product9.webp',
-          '/images/product11.webp',
-        ],
-             tags: ['new-arrival' , 'featured'],
-        isPublished: true,
-        price: 10 ,
-        listPrice: 15 ,
-        brand:'Growatt',
-        avgRating: 4.7,
-        numReviews: 20,
-        ratingDistribution: [
-          { rating: 1, count: 0 },
-          { rating: 2, count: 0 },
-          { rating: 3, count: 0 },
-          { rating: 4, count: 7 },
-          { rating: 5, count: 8},
-        ],
-        numSales: 0 ,
-        countInStock: 150,
-        description:
-          'Another reliable MC4 connector for solar installations. It provides a secure connection for solar panels, ensuring optimal performance and safety.   ',
-
-       
-
-        reviews: [],
-      },
-
       //Controllers
        {
         name: 'Solar Battery Controller',
@@ -488,6 +539,190 @@ const products: IProductInput[] = [
 
         reviews: [],
       },
+
+      {
+        name: '3KW SOLAR SYSTEM-SINGLE PHASE',
+        slug: toSlug('3KW SOLAR SYSTEM-SINGLE PHASE'),
+        category: 'Solar Packages',
+        images: [
+          '/images/p6.webp',
+        ],
+             tags: ['featured' , 'new-arrival'],
+        isPublished: true,
+        price:1330 ,
+        listPrice: 2200 ,
+        brand:'Various',
+        avgRating: 5,
+        numReviews: 5,
+        ratingDistribution: [
+          { rating: 1, count: 0 },
+          { rating: 2, count: 0 },
+          { rating: 3, count: 0 },
+          { rating: 4, count: 0 },
+          { rating: 5, count: 5},
+        ],
+        numSales: 0 ,
+        countInStock: 200,
+        description:
+          'The 3 kW solar system features 550W solar panels and comes equipped with a 3 kW inverter. It includes a 100Ah 24V lithium battery from reputable brands such as Growatt, Dyness, and Pylontech. The system is supported by durable aluminium or galvanised mounting structures, along with all necessary cables and accessories. Labour for installation is included in the package. This system offers a warranty of 5 years on most components, with the inverter having a 2-year warranty, and workmanship also covered for 5 years.',
+
+       
+
+        reviews: [],
+      },
+       {
+        name: '5/6 KW SOLAR SYSTEM-SINGLE PHASE',
+        slug: toSlug('5/6 KW SOLAR SYSTEM-SINGLE PHASE'),
+        category: 'Solar Packages',
+        images: [
+          '/images/p5.webp',
+        ],
+             tags: ['new-arrival'],
+        isPublished: true,
+        price:2420 ,
+        listPrice: 2000 ,
+        brand:'Various',
+        avgRating: 5,
+        numReviews: 5,
+        ratingDistribution: [
+          { rating: 1, count: 0 },
+          { rating: 2, count: 0 },
+          { rating: 3, count: 0 },
+          { rating: 4, count: 0 },
+          { rating: 5, count: 5},
+        ],
+        numSales: 0 ,
+        countInStock: 200,
+        description:
+          'The 5/6 kW solar system also utilizes 550W solar panels, with the option of a 5 kW or 6 kW inverter. It features the same robust 100Ah 24V lithium battery from brands like Growatt, Dyness, and Pylontech. The mounting structures are made from aluminium or galvanised materials, and all essential cables and accessories are included. Labour for installation is part of the offering as well. This system boasts a longer warranty period, providing 10 years on components, 5 years on the inverter, and 5 years on the battery, alongside 5 years of workmanship coverage.',
+
+       
+
+        reviews: [],
+      },
+       {
+        name: '10 KW SOLAR SYSTEM-SINGLE PHASE',
+        slug: toSlug('10 KW SOLAR SYSTEM-SINGLE PHASE'),
+        category: 'Solar Packages',
+        images: [
+          '/images/p4.webp',
+        ],
+             tags: ['new-arrival'],
+        isPublished: true,
+        price:5819,
+        listPrice: 3000 ,
+        brand:'Various',
+        avgRating: 5,
+        numReviews: 5,
+        ratingDistribution: [
+          { rating: 1, count: 0 },
+          { rating: 2, count: 0 },
+          { rating: 3, count: 0 },
+          { rating: 4, count: 0 },
+          { rating: 5, count: 5},
+        ],
+        numSales: 0 ,
+        countInStock: 200,
+        description:
+          'The 8/10 kW solar system is designed for higher energy needs, incorporating 550W solar panels with options for either an 8 kW or 10 kW inverter. It continues to use the reliable 100Ah 24V lithium battery from brands such as Growatt, Dyness, and Pylontech. The system is supported by sturdy aluminium or galvanised mounting structures, and it includes all necessary cables and accessories. Installation labour is also covered. This system provides an impressive warranty of 25 years on components, 5 years on the inverter, and 5 years on the battery, along with 5 years of workmanship guarantee.',
+
+       
+
+        reviews: [],
+      },
+      {
+        name: '12 KW SOLAR SYSTEM',
+        slug: toSlug('12 KW SOLAR SYSTEM'),
+        category: 'Solar Packages',
+        images: [
+          '/images/p3.webp',
+        ],
+             tags: ['new-arrival'],
+        isPublished: true,
+        price:10350,
+        listPrice: 12000 ,
+        brand:'Various',
+        avgRating: 5,
+        numReviews: 5,
+        ratingDistribution: [
+          { rating: 1, count: 0 },
+          { rating: 2, count: 0 },
+          { rating: 3, count: 0 },
+          { rating: 4, count: 0 },
+          { rating: 5, count: 5},
+        ],
+        numSales: 0 ,
+        countInStock: 200,
+        description:
+          'The 12 kW solar system features high-efficiency 550W solar panels paired with a powerful 12 kW inverter. It includes a 100Ah 24V lithium battery sourced from reputable brands such as Growatt, Dyness, and Pylontech. The system is equipped with durable aluminium or galvanised mounting structures, as well as all necessary cables and accessories to ensure seamless installation. This system offers a robust warranty of 25 years on components and 5 years on the inverter and battery, along with 5 years of workmanship coverage. The total cost for this setup is calculated based on quantities and unit prices, providing a clear breakdown of the investment. ',
+
+       
+
+        reviews: [],
+      },
+
+       {
+        name: '16 KW SOLAR SYSTEM-SINGLE PHASE',
+        slug: toSlug('16 KW SOLAR SYSTEM-SINGLE PHASE'),
+        category: 'Solar Packages',
+        images: [
+          '/images/p2.webp',
+        ],
+             tags: ['new-arrival'],
+        isPublished: true,
+        price:16200,
+        listPrice: 20000 ,
+        brand:'Various',
+        avgRating: 5,
+        numReviews: 5,
+        ratingDistribution: [
+          { rating: 1, count: 0 },
+          { rating: 2, count: 0 },
+          { rating: 3, count: 0 },
+          { rating: 4, count: 0 },
+          { rating: 5, count: 5},
+        ],
+        numSales: 0 ,
+        countInStock: 200,
+        description:
+          'The 16 kW solar system is designed for higher energy demands, featuring 550W solar panels and a 16 kW inverter. Like the 12 kW system, it includes a 100Ah 24V lithium battery from trusted brands including Growatt, Dyness, and Pylontech. The mounting structures are made from aluminium or galvanised materials, and the package comes with all necessary cables and accessories. This system also offers a 25-year warranty on components, a 5-year warranty on the inverter and battery, and 5 years of workmanship coverage. The total price reflects the quantities and unit prices for each component, ensuring transparency in costs. ',
+
+       
+
+        reviews: [],
+      },
+
+       {
+        name: '50 KW SOLAR SYSYTEM -3PHASE',
+        slug: toSlug('50 KW SOLAR SYSYTEM -3PHASE'),
+        category: 'Solar Packages',
+        images: [
+          '/images/p1.webp',
+        ],
+             tags: ['new-arrival'],
+        isPublished: true,
+        price:40000,
+        listPrice: 50000 ,
+        brand:'Various',
+        avgRating: 5,
+        numReviews: 5,
+        ratingDistribution: [
+          { rating: 1, count: 0 },
+          { rating: 2, count: 0 },
+          { rating: 3, count: 0 },
+          { rating: 4, count: 0 },
+          { rating: 5, count: 5},
+        ],
+        numSales: 0 ,
+        countInStock: 200,
+        description:
+          'The 50 kW solar system is a comprehensive solution for large-scale energy needs. It includes a WIT 50K-XHU inverter and multiple AXE 5.0H-E1 EU batteries, along with an AXE 1000100-C1 EU HV BMS for effective battery management. The system also features an AXE 60.0H-CE1 EU cabinet, a battery junction box, and a TPM-CT-E-EU meter for monitoring. The setup consists of 96 solar panels mounted on rooftops, complemented by all necessary cables and accessories. Warranty periods vary, with 5 years on the inverter and batteries, and 25 years on the solar panels. The total selling amount for this extensive system is calculated based on individual component costs, providing a comprehensive overview of the investment needed for a robust solar solution.',
+
+       
+
+        reviews: [],
+      },
+      
        //Batteries
       {
         name: '60 Ah Solar Battery',
@@ -520,40 +755,39 @@ const products: IProductInput[] = [
         reviews: [],
       },
 
-      
-   // Cables
-   {
-        name: 'Solar Cable Voltaic System',
-        slug: toSlug('Solar Cable Voltaic System'),
-        category: 'Cables',
+       {
+        name: 'Lithium battery 100ah 24V',
+        slug: toSlug('Lithium battery 100ah 24V'),
+        category: 'Batteries',
         images: [
-          '/images/product10.webp',
+          '/images/py.webp',
         ],
-             tags: ['most-bought' , 'featured'],
+             tags: ['new-arrival'],
         isPublished: true,
-        price: 50 ,
-        listPrice: 60 ,
-        brand:'Growatt',
-        avgRating: 4.5,
-        numReviews: 15,
+        price: 600 ,
+        listPrice: 780 ,
+        brand:'Pylontech',
+        avgRating: 5,
+        numReviews: 5,
         ratingDistribution: [
           { rating: 1, count: 0 },
           { rating: 2, count: 0 },
           { rating: 3, count: 0 },
-          { rating: 4, count: 7 },
-          { rating: 5, count: 8},
+          { rating: 4, count: 0},
+          { rating: 5, count: 5},
         ],
-        numSales: 70 ,
-        countInStock: 100,
+        numSales: 0 ,
+        countInStock: 200,
         description:
-          'Durable and weather-resistant solar cables designed for connecting solar panels to inverters and batteries. They ensure minimal power loss and long-lasting performance.   ',
+          'This Lithium battery 100ah 24V is designed for reliable energy storage in solar systems. It offers longevity and performance, making it ideal for both off-grid and grid-tied applications.  ',
 
        
 
         reviews: [],
       },
 
-
+      
+   
     ]
 
     const reviews = [

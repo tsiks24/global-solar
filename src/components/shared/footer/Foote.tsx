@@ -22,7 +22,7 @@ function Foote() {
                          <div className="col-span-1 text-center md:text-start md:justify-start md:items-start flex flex-col justify-center items-center ">
                             <h1 className="text-green-950 md:text-[30px] text-[20px] font-bold py-4" >Global Solar</h1>
                              <p className="text-green-950 pb-2 pt-4">
-                            A global network that provides knowledge,tools and resources for decision makers and practitioners to scale up sustainable living in their communities
+                            A global network that offers knowledge, tools, and resources for decision-makers and practitioners to enhance solar energy adoption and promote sustainable living in their communities.
                                     </p>
                       <div className='flex flex-row w-full gap-3 md:items-start md:justify-start items-center justify-center'>
                                <div className='border-gray-200 border p-2 cursor-pointer'><FaFacebook className='h-[25px] w-[25px] text-green-950'/></div>

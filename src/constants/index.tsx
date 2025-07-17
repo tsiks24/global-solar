@@ -99,20 +99,20 @@
     {
       id:'1',
       source:'/a.png',
-      name:'Solar Panel Installation',
-      desc:'Proffesional installation services to ensure your solar panels operate'
+      name:'Solar Energy for Industry',
+      desc:'Reliable solar energy solutions powering sustainable industrial operations efficiently.'
     },
     {
       id:'2',
       source:'/a.png',
-      name:'Solar Panel Installation',
-      desc:'Proffesional installation services to ensure your solar panels operate'
+      name:'Solar Irrigation Schemes',
+      desc:'Efficient solar irrigation systems enhancing agricultural productivity sustainably.'
     },
     {
       id:'3',
       source:'/b.png',
-      name:'Solar Panel Installation',
-      desc:'Proffesional installation services to ensure your solar panels operate'
+      name:'LED Lighting Production',
+      desc:'Energy-efficient LED lighting solutions for sustainable production and illumination.'
     },
     {
       id:'4',
@@ -124,10 +124,11 @@
   ]
 
 
-  export const counteData = [
+ 
+   export const counteData = [
     {
       name:"Years of experiences",
-      count:200
+      count:20
     },
 
     {
@@ -137,13 +138,28 @@
 
     {
       name:"Total Solar Technician",
-      count:200
+      count:30
     },
 
     {
       name:"Awards Achievement",
+      count:35
+    },
+  ]
+
+
+  export const servCount = [
+    {
+      name:"Years of experiences",
+      count:15
+    },
+
+    {
+      name:"Solar Installation",
       count:200
     },
+
+    
   ]
 
    export const clientsData = [
@@ -161,13 +177,15 @@
       src:"/3.png",
       
     },
-
-    
-      {
-      src:"/5.png",
+    {
+      src:"/4.png",
       
     },
      {
+      src:"/5.png",
+      
+    },
+    {
       src:"/6.png",
       
     },
@@ -176,16 +194,36 @@
       
     },
     {
-      src:"/8.jpg",
-      
-    },
-    {
-      src:"/9.jpeg",
+      src:"/8.png",
       
     },
    
     {
-      src:"/11.jpg",
+      src:"/9.png",
+      
+    },
+    {
+      src:"/10.png",
       
     },
   ]
+
+  export const News = [
+    { 
+      src:'/short1.png',
+      name:"How Solar Cuts Business Energy Costs",
+      exerpt:"Solar energy significantly reduces business energy costs by lowering electricity bills, enhancing sustainability, and providing long-term financial savings through tax incentives."
+    },
+     { 
+      src:'/short1.png',
+      name:"Why Green Energy Matters More Today",
+      exerpt:"Green energy is crucial today for combating climate change, promoting sustainable development, reducing pollution, and ensuring energy security for future generations."
+    },
+     { 
+      src:'/short1.png',
+      name:"Top Ways to Maximize Solar Efficiency",
+      exerpt:"Maximizing solar efficiency involves optimizing panel placement, using high-quality inverters, maintaining cleanliness, investing in energy storage, and monitoring performance regularly."
+    },
+  ]
+
+  

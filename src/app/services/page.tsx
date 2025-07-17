@@ -1,5 +1,7 @@
 import React from 'react'
 import PagesHero from '@/components/shared/PagesHero'
+import MainServ from '@/components/services/MainServ'
+import CTA from '@/components/services/CTA'
 
 function page() {
   return (
@@ -9,6 +11,8 @@ function page() {
                 <PagesHero name='Services'/>
         </div>
       </div>
+      <MainServ/>
+      <CTA/>
     
     </div>
   )

@@ -15,7 +15,7 @@ const settings = {
     autoplay:true,
     autoplaySpeed:1000,
     arrows:false,
-    slidesToShow:4,
+    slidesToShow:5,
     slidesToScroll:1 ,
     responsive:[
       
@@ -29,7 +29,7 @@ const settings = {
       {
       breakpoint:840,
       settings:{
-        slidesToShow:1,
+        slidesToShow:2,
         slidesToScroll:1  
       }
       },
@@ -48,7 +48,7 @@ function ClientCarousel() {
                         <div  key={id} className=''>
                                       
                              
-                                <Image alt="icon" src={p.src} width={2000} height={2000} className='h-[200px] w-[230px]' ></Image>
+                                <Image alt="icon" src={p.src} width={2000} height={2000} className='h-[200px] w-[250px]' ></Image>
                             
                     
                            </div>

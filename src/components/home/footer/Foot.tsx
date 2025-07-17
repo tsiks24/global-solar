@@ -11,13 +11,13 @@ import { FaDotCircle } from 'react-icons/fa'
 function Foot() {
   return (
     <div className='bg-green-950'>
-    <div className=" w-full pb-5  pt-[250px] ">
+    <div className=" w-full pb-5  pt-[40px] ">
     <div className="h-full w-full flex flex-col items-center flex-wrap justify-center">
       <div className="grid grid-cols-1 md:grid-cols-4 w-[90%] lg:w-[80%] gap-6 pb-8">
         <div className="col-span-1 text-center md:text-start md:justify-start md:items-start flex flex-col justify-center items-center ">
            <Image className='w-[130px] h-[80px]  mt-[23px]' src={'/soa.png'} width={1000} height={1000} alt='logo'></Image>
           <p className="text-white pb-2 pt-4">
-          A global network that provides knowledge,tools and resources for decision makers and practitioners to scale up sustainable living in their communities
+          A global network that offers knowledge, tools, and resources for decision-makers and practitioners to enhance solar energy adoption and promote sustainable living in their communities.
           </p>
           <div className='flex flex-row w-full gap-3 md:items-start md:justify-start items-center justify-center'>
                   <div className='bg-green-900 p-2 cursor-pointer'><FaFacebook className='h-[25px] w-[25px] text-green-600'/></div>

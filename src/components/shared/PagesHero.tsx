@@ -12,7 +12,7 @@ interface Props {
 const PagesHero= ({name}:Props)=> {
   return (
        <div className='relative'>
-            <div className='flex mt-[-120px] absolute  flex-col w-full h-[400px] bg-cover bg-no-repeat bg-center ' style={{backgroundImage:'url(/hero.jpg)'}}>
+            <div className='flex mt-[-120px] absolute  flex-col w-full h-[300px] md:h-[400px] bg-cover bg-no-repeat bg-center ' style={{backgroundImage:'url(/long1.png)'}}>
        
         <Vertical/>
         <div className='w-full h-full absolute  top-0 opacity-50 bg-green-950 z-10'></div>

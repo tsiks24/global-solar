@@ -7,6 +7,7 @@ import Link from 'next/link'
 import { navLinks } from '@/constants'
 import Btn from '../Btn'
 import { APP_NAME } from '@/lib/constants'
+import SideNav from './SideNav'
 
 
   
@@ -37,7 +38,7 @@ const handleScroll = () => {
     <header id='navbar ' className=''>
         <nav  className={` flex flex-col justify-center items-center py-[20px] w-full  z-[80] transition-all duration-100 ${isScrolled ? 'fixed z-[100] bg-green-950 transition-transform' : 'relative bg-transparent  '} `}>
       
-         <div className=' lg:w-[80%] md:w-[95%] flex flex-row justify-between h-[80px] items-center '>
+         <div className=' lg:w-[80%] w-[95%] flex flex-row justify-between h-[80px] items-center '>
 
           <div className=''>
             <Link href={'/'}>
@@ -64,9 +65,9 @@ const handleScroll = () => {
                        
               
                 
-                <div>
+                <div className='md:hidden '>
                  
-                   
+                   <SideNav/>
                     
               
                 </div> 
