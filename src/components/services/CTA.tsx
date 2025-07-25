@@ -12,6 +12,9 @@ function CTA() {
                         <div className='py-4'><h1>Invite change-makers to be part of a purpose-driven company shaping tomorrow through clean energy.</h1></div>
                         <Btn href='/' text='Join Us' />
                 </div>
+                <div className='flex-1 relative bg-contain bg-no-repeat bg-bottom' style={{backgroundImage:'url(/co.png'}}>
+                       <div className='w-full h-full absolute  top-0 opacity-70 bg-green-950 z-10'></div>
+                </div>
             </div> 
         </div>
     </div>
