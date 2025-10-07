@@ -42,7 +42,7 @@ const handleScroll = () => {
 
           <div className=''>
             <Link href={'/'}>
-                  <Image className='w-[130px] h-[80px]' src={'/soa.png'} width={2000} height={100} alt={`${APP_NAME} logo`}></Image>
+                  <Image className='w-[130px] h-[80px]' src={'/so.png'} width={2000} height={100} alt={`${APP_NAME} logo`}></Image>
             </Link>
            
           </div>

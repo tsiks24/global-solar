@@ -12,6 +12,18 @@ export default async function RootLayout({
   return (
     <div>
       
+      grid
+      grid
+      
+      list
+      Usage
+      Last 30 days
+      
+      
+      list
+      Usage
+      Last 30 days
+      
         <Header/>
       <main> {children}</main> 
         <Footer/>
